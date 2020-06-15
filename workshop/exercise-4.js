@@ -6,5 +6,8 @@
 // 0, 1, 4, 9, 16, ...
 
 for (let number = 0; number < 12; number++) {
+  let square = number ** 2;
   console.log('the square of ', number, ' is ', square);
 }
+
+//Q: Should 12 be included or now?
