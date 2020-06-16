@@ -21,3 +21,14 @@
 
 // (Correct answer: 12586269025)
 // (The numbers get big quickly!)
+
+let a = 0;
+let b = 1;
+
+for (let n=0; n<48; n++) {
+    let temp = b;
+    b = a + b;
+    a = temp;
+}
+
+console.log(b);
